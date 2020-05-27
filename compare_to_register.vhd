@@ -11,12 +11,16 @@ entity compare_to_register is
 end compare_to_register;
 
 architecture bruh of compare_to_register is 
-signal temp_output:std_logic;
+signal temp_output:std_logic_vector(2 downto 0);
 signal temp_num:std_logic_vector(2 downto 0);
 	begin
 		process(clk)
-			if	clk'event and clk ='1' and temp_output='0' then 
-				temp_output <= not (object and temp_num);
+		begin
+			if	clk'event and clk ='1' then 
+				temp_output <= not (object xor temp_num);
+					if temp_output= "111" then
+						result <= '1';
+					end if; 
 				temp_num <= temp_num + 1;
 			end if;
 		end process;
