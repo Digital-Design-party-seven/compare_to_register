@@ -6,7 +6,8 @@ entity compare_to_register is
 	port(
 		clk:in std_logic;
 		object:in std_logic_vector(2 downto 0); --need to changed in every clk is activated 
-		result:out std_logic
+		result:out std_logic;
+		test_output:out std_logic_vector(2 downto 0)
 		);
 end compare_to_register;
 
@@ -22,6 +23,7 @@ signal temp_num:std_logic_vector(2 downto 0);
 						result <= '1';
 					end if; 
 				temp_num <= temp_num + 1;
+				test_output <= temp_num;
 			end if;
 		end process;
 	end bruh;

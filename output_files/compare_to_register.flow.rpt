@@ -1,5 +1,5 @@
 Flow report for compare_to_register
-Wed May 27 15:38:39 2020
+Fri May 29 13:55:43 2020
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,16 +40,16 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +---------------------------------+--------------------------------------------+
-; Flow Status                     ; Successful - Wed May 27 15:38:39 2020      ;
+; Flow Status                     ; Successful - Fri May 29 13:55:43 2020      ;
 ; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                   ; compare_to_register                        ;
 ; Top-level Entity Name           ; compare_to_register                        ;
 ; Family                          ; Cyclone V                                  ;
 ; Device                          ; 5CEFA2F23C8                                ;
 ; Timing Models                   ; Final                                      ;
-; Logic utilization (in ALMs)     ; 1 / 9,430 ( < 1 % )                        ;
-; Total registers                 ; 0                                          ;
-; Total pins                      ; 5 / 224 ( 2 % )                            ;
+; Logic utilization (in ALMs)     ; 3 / 9,430 ( < 1 % )                        ;
+; Total registers                 ; 7                                          ;
+; Total pins                      ; 8 / 224 ( 4 % )                            ;
 ; Total virtual pins              ; 0                                          ;
 ; Total block memory bits         ; 0 / 1,802,240 ( 0 % )                      ;
 ; Total DSP Blocks                ; 0 / 25 ( 0 % )                             ;
@@ -67,7 +67,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/27/2020 15:38:05 ;
+; Start date & time ; 05/29/2020 13:55:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; compare_to_register ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 242211430716700.159056508506068 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 242211430715860.159073170403100 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
@@ -95,12 +95,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 598 MB              ; 00:00:01                           ;
-; Fitter                    ; 00:00:16     ; 1.4                     ; 1604 MB             ; 00:00:22                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 614 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:20     ; 1.8                     ; 1677 MB             ; 00:00:26                           ;
 ; Assembler                 ; 00:00:05     ; 1.0                     ; 616 MB              ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 770 MB              ; 00:00:04                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 500 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:33                           ;
+; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 815 MB              ; 00:00:05                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 496 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:33     ; --                      ; --                  ; 00:00:39                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,11 +109,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; G316-18          ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; G316-18          ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; G316-18          ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; G316-18          ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; G316-18          ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; G316-27          ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; G316-27          ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; G316-27          ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; G316-27          ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; G316-27          ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
